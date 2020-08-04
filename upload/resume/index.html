@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Echo Remarketing</title>
+<!-- Stylesheet -->
+<link href="style.css" rel="stylesheet" media="screen">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+<!-- Enabler FInction -->
+<script src="/879366/Enabler_01_232.js"> </script> 
+<!-- initial Code -->
+<script src="initial.js"> </script>
+
+
+
+</head>
+
+<body>
+<!-- Main Container -->
+<div class="main" id="foodurl">
+<div id="slideshow">
+<!-- Slide 1-->
+<div class="slide" id="slide1">
+<!-- Business Copy -->
+	<div class="content">Hey hope you enjoyed your
+		<span id="foodname"></span> for lunch 
+	</div>
+	<!-- Image -->
+	<div class="img"><img id="foodimg" src=""></div>
+</div>
+<!-- Slide 2-->
+	<div class="slide" id="slide2">
+		<div class="content"> how about trying
+			<span class="spancolor">Chicken Pasta</span> from this Italian place for dinner.</div>
+	<div class="img"><img src="chicken-pasta.png"></div>
+	</div>
+	
+
+	</div>
+	
+<!-- CTA-->
+<div class="clr"></div>
+<div class="bottom">
+<div class="logo"><img src="FoodieOrderLogo.svg"></div>
+	<div class="cta">Order Now</div>
+</div>
+</div>
+<script>
+var c = 0;
+var t;
+var timer_is_on = 0;
+var products = document.querySelectorAll(".slide");
+var slideshowspeed=3000;
+
+var today = new Date;
+var s = today.getSeconds() +1;
+var es = s+24;  //Set Time to Stop
+console.log(s);
+if(es>60)
+{es = es -60;}
+
+function timedCount(count) {
+          c = count;
+    Array.prototype.forEach.call(products, function(car) {
+    car.classList.remove("active");
+    });
+    products[c].classList.add("active");
+    if(c==1)
+     { c = 0;
+     }
+    else
+     {
+       c = c+1;
+     }
+
+	 if(s==es)
+	 {
+	//	 stopCount();
+		 document.getElementById('slide2').classList.add("active");
+
+	 }
+	 else
+	 {
+    t = setTimeout(function(){timedCount(c)}, slideshowspeed);
+	}
+}
+
+function doTimer(count) {
+    if (!timer_is_on) {
+        timer_is_on = 1;
+		if(s==es)
+		{stopCount();document.getElementById('slide2').classList.add("active");}
+		else
+		{timedCount(count);}
+    }
+}
+
+function dotimer2(){
+     var today1=new Date();
+	 s = today1.getSeconds() + 1;
+	 if(s==es)
+	 {}
+	 else {
+	 setTimeout(function(){dotimer2()}, 3000);
+	 // document.getElementById('slide2').classList.add("active");
+	 }
+}
+
+
+
+doTimer(0);
+dotimer2();
+
+</script>
+</body>
+</html>
