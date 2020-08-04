@@ -6,17 +6,13 @@ session_start();
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');
 
-//define('DB_USERNAME', 'aiofusion');
-//define('DB_PASSWORD', '$wD.@dej%N){');
-//define('DB_NAME', 'aiofusion');
+/*define('DB_USERNAME', '*********');
+define('DB_PASSWORD', '********');
+define('DB_NAME', '********');*/
 
-/*define('DB_USERNAME', 'mockupor_thakur');
-define('DB_PASSWORD', 'Thakur123');
-define('DB_NAME', 'mockupor_thakur');*/
-
-define('DB_USERNAME', 'thakurfo_main');
-define('DB_PASSWORD', 'Thakur123');
-define('DB_NAME', 'thakurfo_main');
+define('DB_USERNAME', '*********');
+define('DB_PASSWORD', '*********');
+define('DB_NAME', '*********');
 
 define('SITE_PATH', substr(dirname(__FILE__),0,-8));
 define('SITE_CLASS_PATH', SITE_PATH.'/classes');
