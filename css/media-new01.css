@@ -1,0 +1,1091 @@
+.clsmenu {
+    display: none;
+    content: "x";
+    position: absolute;
+    bottom: -16px;/*34px*/
+    left: 45%;
+    height: 36px;
+    width: 36px;
+    background-color: #333333;
+    border-radius: 50%;
+    z-index: 10;
+    font-size: 13px;
+    font-weight: 900;
+    color: #fff;
+    padding: 17px 14px;
+    box-sizing: border-box;cursor: pointer;
+   -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);-ms-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+ul#myfrmdata li:nth-child(19) .parsley-errors-list.filled {
+    margin: 2px 0;
+}
+@media only screen and (min-width:1024px) and (max-width:1199px){
+	/*li {
+		width: 18%;
+	}*/
+		.col img {
+		max-width: 100%;
+	}
+		.icnbx {
+		width: 79.3%;
+	}
+		.dispimg {
+		width: 17%;
+	}
+		.imgbx img {
+		width: 100%;
+	}
+		.icnbx.icn-new {
+		width: 77%;
+	}
+		.right-box {
+		padding: 35px 20px;
+		width: 550px;
+	}
+		.info.act{
+			width: 1100px;
+	}
+
+	/*SHIVANI CHANGES*/
+	.banner-txt h2{font-size: 28px; line-height: 32px;}
+	.para-txt{font-size: 18px;}
+	.access-txt{padding: 45px 0 0 35px;}
+	.indi-visions{margin-left: 25px; width: 20%;}
+	.indi-visions p{font-size: 14px;}
+	.focus-area p.txt{font-size: 18px;}
+	.we-support .overvtab li a{font-size: 17px;}
+	.we-support .overview-data p{font-size: 16px;}
+	/*END SHIVANI CHANGES*/
+
+}
+
+@media only screen and (min-width:768px){
+	.login.btn-large{ display: inline-block !important; }
+	#about-header .serbx {padding-top: 300px;}
+
+}
+@media only screen and (min-width:991px) {
+	.nav-links li:last-child {
+		width: auto;
+		/*margin-bottom: 12px;*/
+		height: 40px;
+	}
+	.nav .nav-links li:last-child a {
+		padding: 0px;
+		/*margin-right: 0;*/
+	}
+	.nav .nav-links li:last-child a:hover { background: transparent;}
+	/*.nav .nav-links li:last-child .lgout .login.btn-large {
+		font-size: 9px;
+		width: 69px;
+		margin-top: -25px;
+		padding: 6px 4px;
+	}*/
+}
+
+@media only screen and (max-width:1600px){
+	.nwgrant {
+/*		background: url(../images/newgrant-bg.jpg)no-repeat left center/cover;*/
+		background: url(../images/newgrant-bg1.jpg)no-repeat left center/cover;
+	}
+
+/*SHIVANI CHANGES*/
+.vision-bg{background: #cd645a; border-radius: 50%; width: 17vw; height: 17vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1410px){
+
+/*SHIVANI CHANGES*/
+.vision-bg{background: #cd645a; border-radius: 50%; width: 19vw; height: 19vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1366px){
+
+/*SHIVANI CHANGES*/
+.vision-bg{background: #cd645a; border-radius: 50%; width: 19vw; height: 19vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1280px){
+
+/*SHIVANI CHANGES*/
+.vision-bg{background: #cd645a; border-radius: 50%; width: 21vw; height: 21vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1200px){
+.highlight {		
+		width: 89%;	
+	}
+
+/*SHIVANI CHANGES*/
+.serbx h2, .serbx h1{font-size: 33px;}
+.access-information .title{font-size: 25px !important;}
+.access-txt, .access-txt ul li{font-size: 17px;}
+.vision-bg{background: #cd645a; border-radius: 50%; width: 21vw; height: 21vw; text-align: center; position: relative;}
+.all-steps .access-txt{width: 60%;}
+.all-steps .inform-img{padding-top: 50px;}
+/*END SHIVANI CHANGES*/
+}
+
+@media only screen and (max-width:1180px){
+
+/*SHIVANI CHANGES*/
+#cssmenu > ul > li{margin-right: 8px;}
+#cssmenu > ul > li > a{padding: 12px 10px;}
+.title{font-size: 35px;}
+.access-txt, .access-txt ul li{font-size: 17px;}
+.access-txt p, .grant-objective .access-txt p{font-size: 18px;}
+.grant-objective .inform-img{padding-top: 20px;}
+.grant-objective .access-txt{padding: 0 0 0 50px;}
+.vision-bg{background: #cd645a; border-radius: 50%; width: 19vw; height: 19vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1024px){
+
+/*SHIVANI CHANGES*/
+#cssmenu > ul > li{margin-right: 8px;}
+#cssmenu > ul > li > a{padding: 12px 10px;}
+.vision-bg{background: #cd645a; border-radius: 50%; width: 19vw; height: 19vw; text-align: center; position: relative;}
+}
+
+@media only screen and (max-width:1199px){
+	/*about-us*/
+	.about-row .awdbx1 {
+		max-width: 64%;
+		padding: 43px 4% 47px;
+	}
+	.about-row .about-box {
+    max-width: 36%;
+}
+/*SHIVANI CHANGES*/
+.vision-bg{background: #cd645a; border-radius: 50%; width: 19vw; height: 19vw; text-align: center; position: relative;}
+}
+
+/*know more popup 5 august*/
+@media only screen and (max-width:1199px){
+	.popup-more-text{ max-width: 900px}
+	#popup-know-more .detail p{ font-size:13px; line-height: 20px;}
+	.popup-more-text .rt-close{ right: 40px; top: 0;}
+}
+/*end know more popup*/
+
+@media screen and (max-width: 1130px){
+	.container {
+		width: 94%;
+	}
+}
+
+/*about-us*/
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+	.rt-close {
+		right: 30px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+	.adviory-board #tabs div#tabs-1, .adviory-board #tabs div#tabs-2, .adviory-board #tabs div#tabs-3 {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+	.advisory {
+		max-width: 176px;/*18.3%*/
+	}
+	.detail.act .advisory{max-width: 176px;/*18.3%*/ }
+	.brddirt .advisory{ max-width: 176px;/*220px*/}
+
+	.text {
+		max-width: 73%;/*64%*/
+		position: absolute;
+		left: 190px;/*20.4%*/
+		min-height: 221px;
+	}
+	.text p {
+		max-height: 221px;
+	}
+	.highlight {
+		width: 90%;	
+	}
+}
+
+@media only screen and (min-width:1005px) and (max-width:1199px){
+.formbx li p.discp {
+    bottom: -42px;
+    font-size: 11px;
+}
+}
+
+/*index page new banner 5 august*/
+@media only screen and (max-width:1094px){
+	.newBX.grantBx article p{ line-height: normal;}
+}
+/*end index page new banner*/
+@media only screen and (min-width:961px) and (max-width:1023px){
+	.text {
+    max-width: 64%;
+	}
+}
+@media only screen and (max-width:1023px){
+	.advisory{ margin-bottom: 20px;}
+	.highlight {		
+		width: 91%;				
+		
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+	.mobile-view{ display: block;}
+	.mobile-view .container p, .mobile-view .container .title,  .mobile-view .container .dir-board{ display: none;}
+	.advisory-mob.item p { display: block;}
+	.ourser .adviory-board { display: none;}
+	
+	/*SHIVANI CHANGES*/
+	.banner-txt h2{font-size: 28px; line-height: 32px;}
+	.para-txt{font-size: 18px;}
+	.access-txt{padding: 20px 0 0 35px;}
+	.indi-visions{margin-left: 25px; width: 21%; font-size: 11px;}
+	p.heading{display: block !important; text-align: center; font-size: 23px; font-weight: 600; margin: 40px 0 20px; font-family: 'baskerville Old Face';}
+	.advisory-mob p:nth-child(2), .advisory-mob h3{padding: 15px 6px; margin-bottom: 20px;}
+	/*END SHIVANI CHANGES*/
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:970px){
+	.adviory-board ul li{ width: 32%; }
+}
+/*@media only screen and (min-width:768px) and (max-width:1008px){
+.advisory-detail .detail.act {
+    top: 87px;
+	}
+}*/
+@media only screen and (min-width:768px) and (max-width:800px){
+	.text {	max-width: 54.5%; }
+}
+@media only screen and (min-width:801px) and (max-width:833px){
+	.text {	max-width: 56.5%; }
+}
+@media only screen and (min-width:834px) and (max-width:875px){
+	.text {	max-width: 58.3%; }
+}
+@media only screen and (min-width:876px) and (max-width:913px){
+	.text {	max-width: 60.3%; }
+}
+@media only screen and (min-width:914px) and (max-width:960px){
+	.text {	max-width: 62%; /*60.3%;*/}
+}
+@media only screen and (min-width:798px) and (max-width:990px){
+	.rt-close { background: #00a6af;}
+  .popup1_close .rt-close{background: inherit}
+}
+
+/*end about-us*/
+
+
+
+@media only screen and (min-width:991px) and (max-width:1023px){
+	.form-sec p:nth-child(2n) {
+		margin-right: 7%;
+	}
+	.form-sec p {
+		width: 46%;
+	}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1080px){
+	.form-sec p input.dtepick#datepicker1 {
+		margin-right: 0;
+	}
+	.form-sec p input.dtepick#datepicker8 {
+		margin-right: 13px;
+	}
+	.form-sec p input.dtepick#datepicker9 {
+		margin-right: 0;
+	}
+	/*input#datepicker8, input#datepicker9 {
+		width: 48% !important;
+	}*/
+	.inputfile-6+label span {
+		width: 58%;
+	}
+	/*.form-sec li .btn {
+		width: 130px;
+	}*/
+}
+
+
+@media only screen and (max-width:991px){
+  /*SHIVANI CHANGES*/
+	#cssmenu > ul > li{margin-right: 5px;}
+	#cssmenu > ul > li > a{padding: 12px 5px;}
+	#cssmenu > ul > li.has-sub > a {padding-right: 20px;}
+	#cssmenu > ul > li.has-sub > a:before{right: 9px;}
+	#cssmenu > ul > li.has-sub > a:after{right: 6px;}
+	.section1 {padding: 25px 0;}
+	.logo{width: 160px; margin-top: -5px;}
+  	.title {font-size: 25px;}
+  	.para-txt, .access-txt p, .grant-objective .access-txt p{font-size: 16px; line-height: 24px;}
+  	.banner-txt{top: 70%;}
+}
+
+
+@media only screen and (min-width:768px) and (max-width:999px){
+	.form-sec p input.dtepick {
+		width: 100% !important;
+	}
+	.inputfile-6+label span {
+		width: 48%;
+		margin-right: 119px;
+	}
+	/*.form-sec li .btn {
+		width: 130px;
+	}*/
+
+	/*SHIVANI CHANGES*/
+	.indi-visions p{font-size: 12px; line-height: 18px;}
+}
+
+
+
+@media only screen and (max-width:991px){
+.link {
+    padding: 0;
+    width: 100%;
+
+}
+	/*css for grant.html*/
+	#grant-header .serbx {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.serbx h2, .serbx h1 {
+		font-size: 46px;
+	}
+	.serbx h2 .textbt, .serbx h1 .textbt {
+		font-size: 22px;
+	}
+	.serach-bar {
+		width: 97%;
+		margin: 0 auto;
+	}
+	.serach-bar p:first-child {
+		width: 67%;
+		margin-right: 20px;
+	}
+	.serach-bar p:first-child input {
+		width: 100%;
+	}
+	/*.serach-bar p:nth-child(2){ margin-left: -3px;}*/
+	.clsmenu {display: none;}
+	.lgout p{ position: unset;}
+	.form-sec p.nte{ width:59%;}
+	
+	/*SHIVANI CHANGES*/
+	.indi-visions p{font-size: 12px; line-height: 18px;}
+	
+}
+
+@media only screen and (max-width:877px){
+	.formbx li.dte div {
+		width: 46%;
+	}
+	.form-sec p.nte{ width:55%;}
+}
+@media only screen and (min-width:768px) and (max-width:1008px){
+	.act { top: 87px; }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+/*about-us*/
+	.about-row .awdbx1 {
+		padding: 43px 1% 47px;
+	}
+}
+
+@media only screen and (max-width:900px){
+	.nwgrant {
+		background-color: #d77b80;
+	}
+	.grantBx figure, .grantBx article {
+		display: block;
+	}
+	.grantBx article {
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.grantBx figure img {
+		max-width: 100%;
+		height: auto;
+	}
+	.highlight {
+		width: 93%;	
+	}
+
+	/*23-12-2019 NEW pages  by SHIVANI*/
+	.project-file{margin-bottom: 30px;}
+	.project-file li{text-align: left; padding: 20px 0 19px;}
+	.project-file li span{float: none; display: block; margin: 15px 0;}
+	.grantancBx figure, .grantancBx article {display: block;}
+	.grantancBx article {padding-left: 0; padding-top: 20px;}
+	.grantancBx figure img {max-width: 100%; height: auto;}
+/* END 23-12-2019 NEW pages  by SHIVANI*/
+
+}
+
+@media only screen and (min-width:768px) and (max-width:900px){
+/*about-us*/
+	.about-row .awdbx1 {
+		padding: 43px 1% 47px;
+		margin-top: -270px;
+	}
+
+}
+
+
+
+@media only screen and (max-width:767px){
+	.section1 {padding-top: 14px;}
+	.clsmenu {display: block;}
+	.login.btn-large{ display: none;}
+	.login.btn-small {
+		display: inline-block;
+		width: 120px !important;
+		margin-right: 45px;
+        margin-top: 0px;
+        position: relative;
+    	z-index: 555;
+    	font-size: 12px;
+	}
+	#form-header .serbx p {
+		padding: 20px;
+	}
+
+	.form-cnt {
+		padding: 40px 20px;
+	}
+	.form-sec p input, .serach-bar p:first-child input, .form-sec p select{
+		font: 400 13px Raleway;
+	}
+	.form-sec p input.dtepick {
+		width: 100% !important;
+	}
+
+
+	.form-sec p {
+		margin-bottom: 10px;
+		width: 45%;
+	}
+	.inputfile-6+label span {
+		width: 36%;
+		margin-right: 119px;
+		font: 400 10px Raleway;
+	}
+	.form-sec li .btn {
+		width: 130px;
+	}
+	.form-sec li .btn.save {
+		margin-right: 11px;
+	}
+	/*grant page*/
+	.datatable {
+		max-width: 1180px;
+		overflow: scroll;
+		overflow-y: hidden;
+	}
+	.datatbl .row .col.td:nth-child(1),.datatbl .row .col.td:nth-child(2)  {
+		min-width: 125px;
+	}
+	.datatbl .row .col.td {
+		min-width: 200px;
+	}
+	.form-sec fieldset legend{ padding-left: 0;}
+	.form-sec fieldset legend{ font-weight: 700;}
+	.form-sec p.nte {
+		width: 47%;
+		bottom: 26px;
+	}
+	/*about-us*/
+	.about-row .awdbx1{ margin-top: 0;}
+	.about-sect{ background: #f7f7f7;}
+	.about-row .about-box {
+		width: 100%;
+		max-width: 100%;
+	}
+	.about-row .awdbx1 {
+		display: block;
+		width: 100%;
+		max-width: 92%;
+	}
+	.datatbl {
+		overflow: scroll;
+		overflow-y: hidden;
+		display: block;
+	}
+	.about-sect, .advisory.default, .dskviewabt {
+		display: none;
+	}
+  /* .about-sect, .ourser, .advisory.default {
+		display: none;
+	} */
+  #grant-page1 .ourser{display: block;}
+  .overvtab li{display: block;}
+  .overvtab li a{padding: 10px 20px}
+	.mobile-view { display: block; padding: 30px 0; }
+	.mobile-view p {
+		text-align: justify;
+	}
+  .title{text-align: center; }
+
+   section.found-text.header-parallax {background-position: inherit !important;}
+  .found-text {padding: 100px 0 100px;}
+	#about-header{ height: 	294px;}
+	#grant-header{ height: 	370px;}
+
+	.grantBx article p.ttl {
+		font-size: 21px;
+		line-height: 31px;
+	}
+	.grantBx article p:nth-child(2) {
+		font-size: 16px;
+		padding: 15px 0;
+	}
+	.grantBx article p:nth-child(3) {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.grantBx article p.dead {
+		font-size: 14px;
+	}
+	.grantBx article p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.formbx li p.discp{ font-size: 11px;}
+	
+	.lgnbtn1 p {
+		font-size: 11px !important;
+		/*margin-top: 2px;*/
+		margin-top: 12px;
+		margin-right: 0;
+	}
+	select#drpdwn {
+		height: 35px;
+		font-size: 12px;
+		background-position: 118px 3px;
+		margin-top: -2px;
+	}
+	select#drpdwn.dashboard{
+		margin-top: 5px;
+	}
+	.highlight {
+		width: 96%;
+		padding: 30px 26px 36px;
+	}
+	/*index page new banner*/
+	.newBX.grantBx article p.newttl { font-size: 20px; padding: 0 0 20px;}
+	.grantBx article p.subheading:nth-child(2){ font-size: 15px;}	
+	.newBX.grantBx article p:nth-child(3) { line-height: 24px; }
+	/*end index page new banner*/
+
+
+	/*SHIVANI CHANGES*/
+	.hidden-lg{display: none;}
+	.hidden-sm{display: block;}
+	.section1{padding: 30px 0;}
+	.logo{margin-top: -3px;}
+	.banner{margin-top: -125px;}
+	.banner-txt{width: 100%; top: 70%;}
+	.banner-txt h2{font-size: 24px; line-height: 27px; padding: 0 20px;}
+	.para-txt, .all-steps .para-txt{font-size: 14px; line-height: 25px; padding: 20px 0;}
+	.inform-img, .grant-objective .inform-img, .all-steps .inform-img{float: none; width: 100%; padding: 0;}
+	.access-txt, .grant-objective .access-txt, .all-steps .access-txt{padding: 30px 0 0; float: none; text-align: left; width: 100%; font-size: 14px;}
+	.grant-objective, .all-steps, .deadline{text-align: center; padding: 20px 0;}
+	.access-txt{padding: 30px 0;}
+	.title, .grant-objective .title, .all-steps .title{font-size: 26px;}
+	p.sub-title{font-size: 16px; text-align: center;}
+	.access-txt p, .grant-objective .access-txt p, .all-steps .access-txt p, .deadline .txt p, .footer-txt p{font-size: 14px; text-align: center; line-height: 26px;}
+	.all-steps .access-txt.txt1{padding: 30px 0 0; margin: 0; background-size: 10%; background-position: center bottom;}
+	.all-steps .access-txt.txt2{padding: 30px 0 0; margin: 0; background-size: 13%; background-position: center bottom;}
+	.all-steps .access-txt.txt3{padding: 30px 0 0; margin: 0; background-size: 10%; background-position: center bottom;}
+	.all-steps .access-txt p, .deadline .txt p{margin-bottom: 15px;}
+	.access-information .title{text-align: left;}
+	.indi-visions{width: 37%; float: none; margin: 0 auto 30px;}
+	.indi-visions:last-child{margin: 0 auto 0;}
+	.vision-all{margin-top: 30px;}
+	.vision-bg{width: 35vw; height: 35vw;}
+	.vision-bg:after{content: ""; display: none;}
+	.focus-area{padding: 30px 0;}
+	.focus-area p.txt{font-size: 14px; line-height: 25px; padding: 30px 0 0;}
+	.indi-visions p{font-size: 15px;}
+	.we-support .overvtab li a{font-size: 18px;}
+	.we-support .overview-data p{font-size: 14px; line-height: 25px; text-align: center;}
+	.link{text-align: center;}
+	.col20 .txtcnt{width: 100%; text-align: center;}
+	.add p{text-align: center; margin-top: 50px; padding: 0 0 10px; font-size: 14px;}
+	.add p:after{left: 50%; transform: translate(-50%, -50%);}
+	.add p:first-child:after{top: -25px;}
+	.add p:nth-child(2):after{top: -12px;}
+	.add p:nth-child(3):after{top: -12px;}
+	.add p:nth-child(3){margin-top: 50px;}
+	.blue-bg{font-size: 14px;}
+	.our-vision{padding: 20px 0 0;}
+	.org-strip{margin-bottom: 25px;}
+
+	.methods{width: 100%; float: none;}
+	.grthe fieldset{padding: 0 30px 30px; margin: 0 auto 30px;}
+	p.heading{display: block !important; text-align: center; font-size: 20px; font-weight: 600; margin: 40px 0 20px; font-family: 'baskerville Old Face';}
+	.advisory-mob p:nth-child(2), .advisory-mob h3{padding: 15px 6px; margin-bottom: 20px;}
+	.ui-accordion-content, .dir-board{padding: 27px 32px 0; margin-bottom: 1px;}
+	/*Dashboard*/
+	.cntarea{padding: 20px !important;}
+	#appdashbrd .main-container .cntarea{margin-top: 30px !important;}
+	.tphead .td, .datatbl .table .tr .td{padding: 14px 10px !important;}
+	.datatbl .table .td.dte{width: 20% !important;}
+	/*END SHIVANI CHANGES*/
+
+}
+
+@media only screen and (min-width:601px) and (max-width:1004px){
+.formbx li p.discp {
+    bottom: -52px;
+    font-size: 11px;
+}
+}
+
+@media only screen and (min-width:601px) and (max-width:767px){
+.formbx li.inpfield:nth-child(20) {
+    width: 95%;
+}
+	
+}
+
+@media only screen and (min-width:601px) and (max-width:663px){
+	.form-sec li .btn {
+		width: 120px;
+		font: 600 13px Raleway;
+	}
+	.form-sec li .btn.save {
+		margin-right: 3px;
+	}	
+
+}
+
+@media only screen and (min-width:601px) and (max-width:629px){
+		.form-sec p.nte {
+			margin: 0px 0 23px;
+		}
+}
+
+@media only screen and (max-width:600px){
+	.form-sec li {
+		width: 100%;
+		display: block;
+		margin: 0 0 40px;
+	}
+	.form-sec li:nth-child(2n){
+		margin-left: 0;
+	}
+	.inputfile-6+label span {
+		width: 42%;
+		margin-right: 120px;
+		font: 400 10px Raleway;
+	}
+	/*grant page*/
+	/*.search-container input[type=text], .serach-bar p:first-child input[type=text] {
+		width: 55.747%;
+	}*/
+	.search-container button,.serach-bar p:last-child input[type="button"] {
+		font-size: 12px;
+		width: 60px;
+	}
+	.form-sec p.nte {
+		width: 100%;
+		
+		margin-bottom: 54px;
+		left: 0;
+		font-size: 10px;
+	}
+	/*about us*/
+    /*.about-row .awdbx1{ padding: 43px 10% 47px 10%;} */
+    .about-row{ padding-bottom: 20px;}
+	
+	.highlight {
+		width: 100%; 
+	}
+	/*index page new banner*/
+	.newBX.grantBx article p:nth-child(3) br,.newBX.grantBx article p:nth-child(4) br{ display: block;}
+	/*end index page new banner*/
+
+}
+
+@media only screen and (min-width:552px) and (max-width:577px){
+	.grthe fieldset {
+		padding: 0 47px 50px;
+	}
+}
+@media only screen and (max-width:551px){
+	.grthe fieldset {
+		padding: 0 26px 50px;
+	}
+	.detail{ padding: 25px 16px 25px 16px;}
+}
+@media only screen and (max-width:480px) and (max-width:551px){
+	.highlight {
+		width: 93%;	
+	}
+	
+}
+@media only screen and (max-width:480px){
+    /*.serbx h2, .serbx h1,.serbx h3{ font-size: 24px; line-height: initial;}*/
+    /*.serbx h2, .serbx h1 {font-size: 30px;}*/
+    section.found-text.header-parallax {background-position: inherit !important;}
+    .found-text {padding: 100px 0 100px;}
+
+
+    /*#about-header .serbx{ padding: 0 0 0 80px;}*/
+    .logo{width: 51%;}
+    .logo img{max-width:100%;}
+	.logo img {
+		width: 120px;
+		height: auto;
+	}
+	.login {
+		font: 300 8px Raleway;
+		padding: 12px 3px;
+	}
+	.login.btn-small {
+    	width: 110px !important;
+	}
+
+	/*grant page*/
+	.serbx h2, .serbx h1 {
+		font-size: 14px;
+	}
+	/*.serbx h2 .textbt, .serbx h1 .textbt {
+		font-size: 14px;
+	}*/
+	.highlight {    
+    width: 96%;
+	}
+
+	/*SHIVANI CHANGES*/
+	.toplinksec{right: 0;}
+	.lgnbtn1{width: 135px;}
+	select#drpdwn{width: 95px; padding-left: 5px; font-size: 10px; background-position: 72px 3px; margin-top: -5px;}
+	select#drpdwn.dashboard{margin-top: 5px;}
+
+	.banner-txt h2{font-size: 18px; line-height: 22px;}
+	.indi-visions {width: 100%; float: none; margin: 0 auto 30px;}
+	.vision-bg{width: 65vw; height: 65vw; margin: 0 auto !important;}
+	.inform-img, .grant-objective .inform-img{float: none; width: 100%;}
+	.all-steps .access-txt.txt1{padding: 30px 0 0; margin: 0; background-size: 20%;}
+	.all-steps .access-txt.txt2{padding: 30px 0 0; margin: 0; background-size: 30%;}
+	.all-steps .access-txt.txt3{padding: 30px 0 0; margin: 0; background-size: 22%;}
+	/*END SHIVANI CHANGES*/
+}
+
+@media only screen and (max-width:461px){
+.formbx li p.discp {
+    bottom: -52px;
+}
+}
+/*index page new banner*/
+@media only screen and (max-width:349px){
+	.newBX.grantBx article p:nth-child(4) { font-size: 21px;}
+}/*end index page new banner*/
+
+@media screen and (max-width: 1199px)
+{
+.container {width: 94%;}
+.section1 {padding: 33px 0;}
+.our-sect, .cont1,.socil-t {margin-right: 6%;width: 29.333%;}
+.socil-t{ margin: 0;}
+
+}
+
+@media screen and (max-width: 1130px)
+{
+.container {width: 94%;}
+.section1 {padding: 30px 0 !important; z-index: 9999; position: relative;}
+.our-sect, .cont1,.socil-t {margin-right: 3%;width: 31%;}
+.socil-t{ margin: 0;}
+
+}
+
+@media screen and (max-width: 1023px){
+.our-sect, .cont1,.socil-t {margin-right: 3%;width: 31%;}
+.socil-t{ margin: 0;}
+}
+
+
+@media screen and (max-width: 991px){
+.our-sect, .cont1, .socil-t {margin-right: 2%; width: 32%;}
+.socil-t{ margin: 0;}
+.our-sect, .cont1 {margin-right: 0;width: 100%;margin: 0 auto;float: none;padding-bottom: 80px;}
+.socil-t {margin-right: 0;width: 100%;margin: 0 auto;float: none;padding-bottom: 30px;}
+footer{ padding-bottom: 0;}
+}
+@media screen and (max-width: 991px){
+  .found-text{padding: 65px 0 52px;background: url(../images/smile-bg2.jpg) no-repeat center center;}
+}
+
+@media screen and (max-width: 767px){
+#banner-slider .serbx h2, .serbx h2{ font-size: 22px;/*50px*/ line-height: initial;}
+.serbx h2 .textbt { font-size: 21px; }
+.bg1, .bg2, .bg3, .bg1.banner, .bg2.banner, .bg3.banner{ padding: 0; height: 400px;}
+.container { width: 90%;}
+
+.spot-box {float: none;padding: 50px 8% 53px 7%;max-width: 85%;display: inline-block;}
+.slider-sect {margin-top: -125px;}
+.serbx, #top-slider .serbx, #banner-slider .serbx {padding: 190px 0 0 0; display: inline-block;}
+#about-header .serbx{ display: table-cell;}
+#grant-header .serbx {
+    padding: 46px 0 0 5%;
+}
+.impact .awdbx {max-width: 90%;float: none;padding: 47px 5% 47px 5%; margin-top: 0px;display: inline-block;}
+ .statis-sect .stat-box{ width: 72%; padding: 93px 12% 79px; float: none;}
+.our-sect, .cont1, .socil-t {margin-right: 0; width: 100%; margin: 0 auto; float: none; padding-bottom: 70px; text-align: center;}
+/*.login { width: 100%; float: none; margin-left: 0px; border: medium none; text-align: left; padding: 10px 10px; background-color: #333; position: relative; z-index: 100; }*/
+footer{ padding-bottom: 0;}
+/*css popup*/
+.popup_visible #popup1 {
+    transform: translateX(0) translateY(-220px);
+}
+#popup1 .table {
+	width: 300px;
+}
+.lt {
+/*display: none;*/
+	text-indent: -400px;
+	overflow: hidden;
+}
+.rt.sgn-popup {
+	left: -300px;
+	visibility: hidden;
+}
+.rt.fgt-popup {
+	left: -300px;
+	visibility: hidden;
+}
+.rt.fgt-popup.open {
+	visibility: visible;
+	left: 0;
+}
+.rt.sgn-popup.open {
+	left: 0;
+	visibility: visible;
+}
+.popup1_close .rt-close {
+	right: 10px;
+}/*end of css popup*/
+/*My account*/
+.slctbg{width: 150px;}
+#cssmenu ul.accMenu{display: block !important; margin-top: 0; background: transparent; border: 1px solid #fff;}
+#cssmenu ul.accMenu li{margin: 0;}
+#cssmenu > ul.accMenu > li:hover, #cssmenu ul.accMenu li.active:hover, #cssmenu ul.accMenu li.active, #cssmenu ul.accMenu li.has-sub.active:hover, #cssmenu > ul.accMenu > li:hover > a, #cssmenu ul.accMenu li.active a{background: transparent !important;}
+#cssmenu ul.accMenu .submenu-button{border: none;}
+#cssmenu ul.accMenu .submenu-button.submenu-opened{background: transparent;}
+.slctbg > ul > li.has-sub > a:before, .slctbg > ul > li.has-sub > a:after{display: none;}
+#cssmenu ul.accMenu ul{top: 41px;}
+#cssmenu ul.accMenu ul li{background: #fff; border-bottom: 1px #db5c55 solid;}
+
+#cssmenu ul{ margin-top: 14px;}
+#about-header .tbl{ height: auto; }
+#grant-header .tbl{ height: 422px; }
+.found-text:after{ display: none;}
+p.salmon {
+    font-size: 20px;
+    line-height: 26px;
+}
+.ourser {
+    padding: 37px 0 6px;
+}
+.wesect {
+    padding: 25px 0 15px;
+}
+.grthe legend{font-size: 29px;}
+.overvtab li:after{display: none;}
+button.owl-prev span, button.owl-next span{
+    font-size: 34px;
+    /* padding: 0; */
+    line-height: 24px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.adgrant article{padding: 20px 0 0 0}
+.adgrant h2{margin: 20px 0 20px 0;}
+#addgrant-header .serbx, #addgrant-header1 .serbx  {
+    padding: 210px 0 0 25px;
+}
+#addGrant .serbx h1, #addgrant-header .serbx .serbx h1{
+    line-height: 35px;
+    font-size: 28px;
+}
+#addgrant-header, #addgrant-header1 {
+    height: 420px;
+}
+.adgrant {
+    padding-bottom: 0;
+}
+.adgrant .h2heading{font-size: 24px;margin-top: 20px;}
+#privacy-header{height: 380px;}
+#prvplcy .serbx{width: auto;padding: 215px 0 0 20px}
+#privacy-header h1{font-size: 26px; line-height: initial;}
+footer{display: block; padding: 30px 0 0;}
+.adgrant .h2heading,.adgrant h3 { font-size: 21px;}
+#addGrant .adgrant article {
+    padding-top: 0;
+}
+footer h4{text-align: center;}
+
+}
+
+
+@media screen and (max-width: 648px){
+ #statis-box .owl-dots{ right: -40px; top: 143px; }
+
+}
+
+@media screen and (max-width: 600px){
+footer{padding-top: 30px;}
+footer h4 { padding-bottom:  20px;}
+.link{ margin-bottom: 30px;}
+
+}
+@media screen and (max-width: 530px){
+/*.serbx h2 {font-size: 35px;}*/
+.serbx h2, .serbx h1,.serbx h3{ font-size: 18px; line-height: initial;}
+/*.serbx h2 .textbt { font-size: 17px; }*/
+.serbx h2 .textbt, .serbx h1 .textbt, .serbx h3 .textbt {
+    font-size: 24px;
+}
+#statis-box .owl-dots{ top: 143px; }
+}
+
+@media screen and (max-width: 480px){
+.bg1,.bg2,.bg3{ padding: 0; height: 370px;}
+.spot-box { min-height:283px;}
+.owl-theme .owl-nav, .owl-nav { right: 30px;bottom: -8%;}
+/*.serbx h2{ font-size: 38px; line-height: 38px;}*/
+.bgimg1, .bgimg2, .bgimg3 {padding-bottom: 80px;}
+#statis-box .owl-dots{ top: 175px; }
+	
+	#grant-page1 #grant-header .serbx h1 {
+		font-size: 27px;
+	}
+	.serbx, #top-slider .serbx {
+		padding: 154px 0 0 0;
+	}
+	#banner-slider .serbx {
+		padding: 214px 0 0 0;
+	}
+	.bg1 {
+    background:url(../images/slider1-mobile.jpg) no-repeat top center; /*15-5-2020*/
+    background-size: initial;
+    padding: 0;
+    height: 350px;
+}
+	.bg2 {
+    background: url(../images/slider2-mobile.jpg) no-repeat top center; /*15-5-2020*/
+    background-size: initial;
+    padding:0;
+    height: 350px;
+}
+	.bg3 {
+    background: url(../images/slider3-mobile.jpg) no-repeat top center; 15-5-2020
+    background-size: initial;
+    padding:0;
+    height: 350px;
+}
+	#about-header {
+    background: url(https://thakur-foundation.org/images/our-team-mobile.png) no-repeat top center;
+    background-size: cover;
+    margin-top: -145px;
+    height: 350px;
+}
+	#grant-header {
+    background: url(https://thakur-foundation.org/images/grant-mobile.png) no-repeat top center;
+    background-size: cover;
+    margin-top: -150px;
+    height: 350px;
+}
+	#addgrant-header {
+    background: url(../images/ad-grant-mobile.png) no-repeat top center;
+    background-size: cover;
+    margin-top: -200px;
+    height: 350px;
+}
+	#form-header {
+    background: url(../images/admin-mobile.png) no-repeat top center;
+    background-size: initial;
+    margin-top: -130px;
+    height: 480px;
+}
+	#form-header .serbx {
+    height: 350px;
+}
+	.add p:nth-child(3) a { font-size: 15px;}
+	#privacy-header {
+    background: url(../images/privacy-bg-mobile.png) no-repeat center 75px;
+    background-size: initial;
+    margin-top: -200px;
+    height: 350px;
+}
+
+/*SHIVANI CHANGES*/
+	/*My account*/
+	.slctbg {width: 135px;}
+	#cssmenu ul.accMenu{margin-top: -4px;}
+	#cssmenu ul.accMenu li a, #cssmenu ul.accMenu ul li a{padding: 8px 7px;}
+	#cssmenu ul.accMenu .submenu-button{height: 32px; width: 32px;}
+	#cssmenu ul.accMenu .submenu-button:before{top: 10px; right: 14px;}
+	#cssmenu ul.accMenu .submenu-button:after{top: 13px; right: 11px;}
+	#cssmenu ul.accMenu ul{top: 32px;}
+
+.button{top: -3px;}
+.logo{margin-top: 0;}
+.slider-sect {margin-top: -105px;}
+.header-banner .bg1.banner {
+    background:url(../images/focus-area1-mbl.jpg) no-repeat top center; /*15-5-2020*/
+    background-size: initial;
+    padding: 0;
+    height: 350px;
+}
+.header-banner .bg2.banner {
+    background: url(../images/focus-area2-mbl.jpg) no-repeat top center; /*15-5-2020*/
+    background-size: initial;
+    padding:0;
+    height: 350px;
+}
+/*.header-banner .bg3.banner {
+    background: url(../images/slider3-mobile.jpg) no-repeat top center; 15-5-2020
+    background-size: initial;
+    padding:0;
+    height: 350px;
+}*/
+/*END SHIVANI CHANGES*/
+	
+}
+
+
+@media screen and (max-width: 433px){
+/*.bgimg1, .bgimg2, .bgimg3 {padding-bottom: 70px;}*/
+#statis-box .owl-dots{ top: 230px; }
+}
+
+
+@media screen and (max-width: 320px) {
+/*.bg1,.bg2,.bg3{ padding: 0; height: 370px;}*/
+.owl-theme .owl-nav, .owl-nav {right: 30px;bottom: -5.6%;}
+
+.bgimg1,.bgimg2, .bgimg3{ padding-bottom: 156px;}
+.spot-box { min-height: 428px;}
+.spot-box { min-height: 428px;}
+.col20 .txtcnt{ margin-left: 2%;}
+.statis-sect .stat-box{ padding: 70px 12% 60px; float: none;}
+#statis-box .owl-dots { right: -20px; top: 273px;}
+.serbx h2, .serbx h1, .serbx h3{ font-size: 25px;}	
+	
+/*popup css*/.popup1_close.cls_btn { right: -14px !important; top:-25px; }/*end popup css*/
+.highlight {    
+    width: 100%;
+	}
+	
+}

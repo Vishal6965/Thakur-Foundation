@@ -1,0 +1,297 @@
+.clsmenu {
+    display: none;
+    content: "x";
+    position: absolute;
+    bottom: 34px;
+    left: 45%;
+    height: 36px;
+    width: 36px;
+    background-color: #333333;
+    border-radius: 50%;
+    z-index: 10;
+    font-size: 13px;
+    font-weight: 900;
+    color: #fff;
+    padding: 17px 14px;
+    box-sizing: border-box;cursor: pointer;
+   -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);-ms-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (min-width:1024px) and (max-width:1199px){
+li {
+    width: 18%;
+}
+	.col img {
+    max-width: 100%;
+}
+	.icnbx {
+    width: 79.3%;
+}
+	.dispimg {
+    width: 17%;
+}
+	.imgbx img {
+    width: 100%;
+}
+	.icnbx.icn-new {
+    width: 77%;
+}
+	.right-box {
+    padding: 35px 20px;
+	width: 550px;
+}
+	.info.act{ width: 1100px;}
+	
+}
+	
+@media only screen and (min-width:768px){
+	.login.btn-large{ display: inline-block !important; }
+}
+
+@media only screen and (max-width:1199px){
+	/*about-us*/
+	.about-row .awdbx1 {
+		max-width: 64%;
+		padding: 43px 4% 47px;
+	}
+	.about-row .about-box {
+    max-width: 36%;
+}
+}
+
+@media screen and (max-width: 1130px){
+	.container {
+		width: 94%;
+	}
+}
+
+/*about-us*/
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+	.advisory {
+		max-width: 18.3%;
+	}
+	.text {
+		max-width: 64%;
+		position: absolute;
+		left: 20.4%;
+	}
+}
+@media only screen and (min-width:990px) and (max-width:1023px){
+	.text {
+    max-width: 57%;
+	}
+}
+@media only screen and (max-width:1023px){
+	.advisory{ margin-bottom: 20px;}
+}
+@media only screen and (min-width:768px) and (max-width:990px){
+	.text {
+		max-width: 44.5%;
+	}
+}/*end about-us*/
+
+
+@media only screen and (min-width:991px) and (max-width:1023px){	
+	.form-sec p:nth-child(2n) {
+		margin-right: 7%;
+	}
+	.form-sec p {		
+		width: 46%;
+	}	
+}
+
+@media only screen and (min-width:1000px) and (max-width:1080px){	
+	.form-sec p input.dtepick#datepicker1 {
+		margin-right: 0;
+	}
+	.form-sec p input.dtepick#datepicker8 {
+		margin-right: 13px;
+	}
+	.form-sec p input.dtepick#datepicker9 {
+		margin-right: 0;
+	}
+	input#datepicker8, input#datepicker9 {
+		width: 48% !important;
+	}
+	.inputfile-6+label span {
+		width: 58%;	
+	}
+	.form-sec p .btn {
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:999px){	
+	.form-sec p input.dtepick {
+		width: 100% !important;
+	}
+	.inputfile-6+label span {
+		width: 48%;
+		margin-right: 119px;		
+	}
+	.form-sec p .btn {
+		width: 130px;
+	}
+}
+
+
+
+@media only screen and (max-width:991px){
+/*css for grant.html*/
+	#grant-header .serbx {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.serbx h2, .serbx h1 {
+		font-size: 46px;
+	}
+	.serbx h2 .textbt, .serbx h1 .textbt {
+		font-size: 22px;
+	}
+	.serach-bar {
+		width: 97%;
+		margin: 0 auto;
+	}
+	.serach-bar p:first-child {
+		width: 67%;
+		margin-right: 20px;
+	}
+	.serach-bar p:first-child input {
+		width: 100%;
+	}
+	/*.serach-bar p:nth-child(2){ margin-left: -3px;}*/	
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+/*about-us*/	
+	.about-row .awdbx1 {
+		padding: 43px 1% 47px;		
+	}
+}
+@media only screen and (min-width:768px) and (max-width:900px){
+/*about-us*/	
+	.about-row .awdbx1 {
+		padding: 43px 1% 47px;
+		margin-top: -270px;
+	}
+	
+}
+
+
+@media only screen and (max-width:767px){	
+	.section1 {
+		padding-top: 14px;
+	}
+	.clsmenu {display: block;}
+	.login.btn-large{ display: none;}
+	.login.btn-small {
+		display: inline-block;
+		width: 82px !important;
+		margin-right: 45px;
+	}
+	#form-header .serbx p {
+		padding: 20px;
+	}
+	
+	.form-cnt {
+		padding: 40px 20px;
+	}
+	.form-sec p input, .serach-bar p:first-child input, .form-sec p select{
+		font: 400 13px Raleway;
+	}
+	.form-sec p input.dtepick {
+		width: 100% !important;
+	}
+
+	
+	.form-sec p {
+		margin-bottom: 10px;
+		width: 45%;
+	}
+	.inputfile-6+label span {
+		width: 36%;
+		margin-right: 119px;
+		font: 400 10px Raleway;
+	}
+	.form-sec p .btn {
+		width: 130px;
+	}
+	.form-sec p .btn.save {
+		margin-right: 20px;
+	}
+	/*grant page*/
+	.datatable {
+		max-width: 1180px;
+		overflow: scroll;
+		overflow-y: hidden;
+	}
+	.datatbl .row .col.td:nth-child(1),.datatbl .row .col.td:nth-child(2)  {
+		min-width: 125px;
+	}
+	.datatbl .row .col.td {
+		min-width: 200px;
+	}
+	/*about-us*/
+	.about-row .awdbx1{ margin-top: 0;}
+	.about-sect{ background: #f7f7f7;}
+	.about-row .about-box {
+		width: 100%;
+		max-width: 100%;
+	}
+	.about-row .awdbx1 {
+		display: block;
+		width: 100%;
+		max-width: 92%;
+	}
+	
+}
+
+@media only screen and (min-width:601px) and (max-width:663px){	
+	.form-sec p .btn {
+		width: 120px;
+		font: 600 13px Raleway;
+	}
+	.form-sec p .btn.save {
+		margin-right: 11px;
+	}
+	
+}
+
+@media only screen and (max-width:600px){
+	.form-sec p {
+		width: 100%;
+		display: block;
+	}
+	.form-sec p:nth-child(2n){
+		margin-left: 0;
+	}
+	.inputfile-6+label span {
+		width: 42%;
+		margin-right: 120px;
+		font: 400 10px Raleway;
+	}
+	/*grant page*/
+	.search-container input[type=text] {
+		width: 55.747%;
+	}
+	.search-container button { 
+		font-size: 12px;
+		width: 60px;
+	}
+	/*about us*/
+    /*.about-row .awdbx1{ padding: 43px 10% 47px 10%;} */
+    .about-row{ padding-bottom: 20px;}	
+
+}
+
+@media only screen and (max-width:480px){
+    #about-header .serbx{ padding: 0 0 0 80px;}
+	/*grant page*/
+	/*.serbx h2, .serbx h1 {
+		font-size: 26px;
+	}
+	.serbx h2 .textbt, .serbx h1 .textbt {
+		font-size: 14px;
+	}*/
+}
